@@ -1,0 +1,23 @@
+{
+  "name": "login_api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Francisco Montoya",
+  "license": "ISC",
+  "description": "This is a simple login API.",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1"
+  }
+}
